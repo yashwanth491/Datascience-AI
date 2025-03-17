@@ -139,4 +139,27 @@ if chat_history:
 if st.button("Reset Chat"):
     st.session_state.memory.clear()
     st.rerun()
-st.markdown("<p style='text-align: center; font-size: 16px;'>👨‍💻 Made by <b>Yashwanth</b></p>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;  /* Add this to stretch from left */
+            right: 0; /* Add this to stretch from right */
+            width: 100%; 
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            color: #333333;
+            font-weight: bold;
+            border-top: 2px solid #cccccc;
+            z-index: 9999; /* Keeps it on top */
+        }
+    </style>
+    <div class="footer">
+        Created by Yashwanth 🚀
+    </div>
+    """,
+    unsafe_allow_html=True
+)
