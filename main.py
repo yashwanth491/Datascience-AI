@@ -139,3 +139,4 @@ if chat_history:
 if st.button("Reset Chat"):
     st.session_state.memory.clear()
     st.rerun()
+st.markdown("<p style='text-align: center; font-size: 16px;'>👨‍💻 Made by <b>Yashwanth</b></p>", unsafe_allow_html=True)
