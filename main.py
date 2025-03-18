@@ -89,7 +89,7 @@ system_message = SystemMessage(
             f"Provide responses based on the user's learning level: {user_level}."
 )
 
-st.title("🔍 Ask AI: Your Data Science Helper")
+st.title("🔍 Ask AI: Your Data Science Tutor")
 
 # Display chat history
 chat_history = []
